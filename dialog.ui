@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>392</width>
+    <height>432</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Dialog{border-image: url(:/new/prefix1/clothes/dre.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>331</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QToolButton" name="bluedress">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/dress.png</normaloff>:/new/prefix1/clothes/dress.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QToolButton" name="sali">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/shali.png</normaloff>:/new/prefix1/clothes/shali.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QToolButton" name="kunkun">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/beidaiku.png</normaloff>:/new/prefix1/clothes/beidaiku.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QToolButton" name="bikini">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/bikini.png</normaloff>:/new/prefix1/clothes/bikini.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QToolButton" name="hat">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/hat.png</normaloff>:/new/prefix1/clothes/hat.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QToolButton" name="crown">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/crown.png</normaloff>:/new/prefix1/clothes/crown.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QWidget" name="mirror" native="true">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <widget class="QWidget" name="head" native="true">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>47</y>
+             <width>55</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/clothes/face0.png);</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="bodyy" native="true">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>80</y>
+             <width>81</width>
+             <height>101</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/clothes/body.png);</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="feet" native="true">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>170</y>
+             <width>81</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/clothes/feet.png);</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="hatt" native="true">
+           <property name="geometry">
+            <rect>
+             <x>19</x>
+             <y>33</y>
+             <width>41</width>
+             <height>31</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QWidget" name="hair" native="true">
+           <property name="geometry">
+            <rect>
+             <x>12</x>
+             <y>47</y>
+             <width>55</width>
+             <height>35</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/new/prefix1/clothes/hair0.png);</string>
+           </property>
+          </widget>
+          <zorder>head</zorder>
+          <zorder>hair</zorder>
+          <zorder>hatt</zorder>
+          <zorder>bodyy</zorder>
+          <zorder>feet</zorder>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="OKbuttion">
+        <property name="maximumSize">
+         <size>
+          <width>81</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>换装完成！</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <widget class="QToolButton" name="shoered">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/shoered.png</normaloff>:/new/prefix1/clothes/shoered.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QToolButton" name="shoeblue">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/shoeblue.png</normaloff>:/new/prefix1/clothes/shoeblue.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QToolButton" name="shoebrown">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/shoebrown.png</normaloff>:/new/prefix1/clothes/shoebrown.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QToolButton" name="diploma">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/diploma.png</normaloff>:/new/prefix1/clothes/diploma.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QToolButton" name="safety">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/safety.png</normaloff>:/new/prefix1/clothes/safety.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QToolButton" name="remake">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/new/prefix1/clothes/remake.png</normaloff>:/new/prefix1/clothes/remake.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
