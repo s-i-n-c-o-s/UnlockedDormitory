@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Criticism</class>
+ <widget class="QDialog" name="Criticism">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>358</width>
+    <height>432</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Criticism{border-image: url(:/new/prefix1/clothes/cri.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>341</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="showtime" native="true">
+      <widget class="QWidget" name="bodyy" native="true">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>80</y>
+         <width>81</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/new/prefix1/clothes/body.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="head" native="true">
+       <property name="geometry">
+        <rect>
+         <x>142</x>
+         <y>47</y>
+         <width>55</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/new/prefix1/clothes/face0.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="feet" native="true">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>170</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/new/prefix1/clothes/feet.png);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="hatt" native="true">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>33</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="hair" native="true">
+       <property name="geometry">
+        <rect>
+         <x>142</x>
+         <y>47</y>
+         <width>55</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/new/prefix1/clothes/hair0.png);</string>
+       </property>
+      </widget>
+      <zorder>head</zorder>
+      <zorder>hair</zorder>
+      <zorder>hatt</zorder>
+      <zorder>bodyy</zorder>
+      <zorder>feet</zorder>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="comment">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
